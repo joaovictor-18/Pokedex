@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title><%= pokemon.nome %></title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="pokemon-details">
+            <h1><%= pokemon.nome %></h1>
+            <p>Tipo: <%= pokemon.tipo %></p>
+            <p>Altura: <%= pokemon.altura %>m</p>
+            <p>Peso: <%= pokemon.peso %>kg</p>
+            <button onclick="window.history.back()">Voltar à Pokédex</button>
+        </div>
+    </div>
+</body>
+</html>
